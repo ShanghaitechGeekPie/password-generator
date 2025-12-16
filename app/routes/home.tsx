@@ -1,9 +1,9 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import PasswordTool from "../pwd/tool";
 
 export function meta({}: Route.MetaArgs) {
 	return [
-		{ title: "New React Router App" },
+		{ title: "GeekPie_ Password Generator" },
 		{ name: "description", content: "Welcome to React Router!" },
 	];
 }
@@ -13,5 +13,5 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-	return <Welcome message={loaderData.message} />;
+	return <PasswordTool />;
 }
