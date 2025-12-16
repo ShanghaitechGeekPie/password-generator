@@ -376,7 +376,7 @@ const PasswordTool: React.FC = () => {
             )}
           </div>
         </div>
-          <p className="text-center text-xs w-full text-muted-foreground">
+          <p className="text-center text-xs w-full text-muted-foreground mb-4">
             本网站不会存储您的密码，推荐使用密码管理器保存您的密码
             <br/>
             网站由 GeekPie_ 学生社团维护，
