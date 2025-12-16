@@ -4,7 +4,7 @@ import PasswordTool from "../pwd/tool";
 export function meta({}: Route.MetaArgs) {
 	return [
 		{ title: "GeekPie_ Password Generator" },
-		{ name: "description", content: "Welcome to React Router!" },
+		{ name: "description", content: "根据口令生成密码" },
 	];
 }
 
