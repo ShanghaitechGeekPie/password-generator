@@ -375,12 +375,13 @@ const PasswordTool: React.FC = () => {
               </div>
             )}
           </div>
-          <p className="text-center text-xs w-full col-span-2 text-muted-foreground">
+        </div>
+          <p className="text-center text-xs w-full text-muted-foreground">
             本网站不会存储您的密码，推荐使用密码管理器保存您的密码
             <br/>
-            网站由 GeekPie_ 学生社团维护，您可以 <a href="https://github.com/ShanghaitechGeekPie/password-generator" className='underline'>审查我们的代码</a>
+            网站由 GeekPie_ 学生社团维护，
+            您可以 <a href="https://github.com/ShanghaitechGeekPie/password-generator" className='underline'>审查我们的代码</a>
           </p>
-        </div>
       </div>
     </div>
   );
